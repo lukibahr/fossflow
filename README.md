@@ -4,11 +4,8 @@ FossFLOW is a powerful, open-source Progressive Web App (PWA) for creating beaut
 
 ![Screenshot_20250630_160954](https://github.com/user-attachments/assets/e7f254ad-625f-4b8a-8efc-5293b5be9d55)
 
-
-
 - **📝 [FOSSFLOW_TODO.md](https://github.com/stan-smith/fossflow-lib/blob/main/ISOFLOW_TODO.md)** - Current issues and roadmap with codebase mappings, most gripes are with the isoflow library itself.
 - **🤝 [CONTRIBUTORS.md](https://github.com/stan-smith/fossflow-lib/blob/main/CONTRIBUTORS.md)** - How to contribute to the project.
-
 
 ## Features
 
@@ -20,11 +17,9 @@ FossFLOW is a powerful, open-source Progressive Web App (PWA) for creating beaut
 - 🎯 **Session Storage** - Quick save without dialogs
 - 🌐 **Offline Support** - Work without internet connection
 
-
 ## Try it online
 
-Go to https://stan-smith.github.io/FossFLOW/
-
+Go to <https://stan-smith.github.io/FossFLOW/>
 
 ## Quick start on local environment
 
@@ -46,15 +41,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## How to Use
 
-
-
-
-
 ### Creating Diagrams
 
 1. **Add Items**:
-  - Press the "+" button on the top right menu, the library of components will appear on the left. Drag and drop components from the library onto the canvas
-  - Or, perform a right click on the grid and select "Add node", you can then click on the new node you created and customise it from the left menu
+
+- Press the "+" button on the top right menu, the library of components will appear on the left. Drag and drop components from the library onto the canvas
+- Or, perform a right click on the grid and select "Add node", you can then click on the new node you created and customise it from the left menu
+
 2. **Connect Items**: Use connectors to show relationships between components
 3. **Customize**: Change colors, labels, and properties of items
 4. **Navigate**: Pan and zoom to work on different areas
@@ -92,10 +85,12 @@ npx serve -s build
 The build folder contains all files needed for deployment.
 
 If you need the app to be deployed to a custom path (i.e. not root), use instead:
+
 ```bash
 # Create optimized production build for given path
 PUBLIC_URL="https://mydomain.tld/path/to/app" npm run build
 ```
+
 That will add the defined `PUBLIC_URL` as a prefix to all links to static files.
 
 ## Deployment
@@ -103,6 +98,7 @@ That will add the defined `PUBLIC_URL` as a prefix to all links to static files.
 ### Static Hosting
 
 Deploy the `build` folder to any static hosting service:
+
 - GitHub Pages
 - Netlify
 - Vercel
@@ -125,16 +121,19 @@ Deploy the `build` folder to any static hosting service:
 ## Troubleshooting
 
 ### Storage Full
+
 - Use Storage Manager to free space
 - Export and delete old diagrams
 - Clear browser data (last resort - will delete all diagrams)
 
 ### Can't Install PWA
+
 - Ensure using HTTPS
 - Try Chrome or Edge browsers
 - Check if already installed
 
 ### Lost Diagrams
+
 - Check browser's localStorage
 - Look for auto-saved versions
 - Always export important work
